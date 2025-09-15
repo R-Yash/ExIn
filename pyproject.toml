@@ -1,0 +1,12 @@
+[project]
+name = "exin"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google-genai>=1.36.0",
+    "langgraph>=0.6.7",
+    "pydantic-ai>=1.0.5",
+    "python-dotenv>=1.1.1",
+]

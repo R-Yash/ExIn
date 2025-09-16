@@ -79,3 +79,5 @@ class GraphState(TypedDict):
     total_questions: int
     skill_level: Optional[SkillLevel]
     done: bool
+    evaluations: Optional[List[EvaluationResult]]  # Add this field
+    summary: Optional[SummaryResult]
